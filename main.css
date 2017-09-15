@@ -94,3 +94,20 @@ h1, h2, h3, h4, h5, h6 {
     95% { bottom: 2000px; left: 1900px;}
     to { bottom: 2100px; left: 1600px;}
 }
+.bubble5 {
+    animation: 14s bubble5 ease-in-out;
+}
+@keyframes bubble5 {
+    from { bottom: -200px; left: 1250px; }
+    10% { bottom: 180px; left: 1550px;}
+    20% { bottom: 280px; left: 1170px;}
+    30% { bottom: 460px; left: 1505px;}
+    40% { bottom: 660px; left: 1205px;}
+    50% { bottom: 750px; left: 1600px;}
+    60% { bottom: 1020px; left: 1300px;}
+    70% { bottom: 1100px; left: 1000px;}
+    80% { bottom: 1150px; left: 1105px;}
+    90% { bottom: 1600px; left: 1300px;}
+    95% { bottom: 1800px; left: 1600px;}
+    to { bottom: 2500px; left: 950px;}
+}
