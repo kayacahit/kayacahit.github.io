@@ -8,3 +8,4 @@ function bubbles() {
           console.log("inside loop and setinterval");
     }
 }
+bubbles();
