@@ -21,7 +21,42 @@ h1, h2, h3, h4, h5, h6 {
 .bubble {
     background: rgba(248,248,250,.85);
     box-shadow: inset -35px -5px 50px #e5eaec, inset 5px 5px 50px #dbe4e7;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+    position: absolute;
+}
+.bubble1 {
+    animation: 15s bubble1 ease-in-out;
+}
+@keyframes bubble1 {
+    from { bottom: -100px; left: 150px; }
+    10% { bottom: 100px; left: 150px;}
+    20% { bottom: 400px; left: 170px;}
+    30% { bottom: 600px; left: 155px;}
+    40% { bottom: 800px; left: 165px;}
+    50% { bottom: 1000px; left: 130px;}
+    60% { bottom: 1200px; left: 185px;}
+    70% { bottom: 1400px; left: 140px;}
+    80% { bottom: 1600px; left: 155px;}
+    90% { bottom: 1800px; left: 140px;}
+    95% { bottom: 2000px; left: 130px;}
+    to { bottom: 2200px; left: 150px;}
+}
+.bubble1 {
+    animation: 15s bubble2 ease-in-out;
+}
+@keyframes bubble2 {
+    from { bottom: -100px; left: 450px; }
+    10% { bottom: 180px; left: 450px;}
+    20% { bottom: 480px; left: 470px;}
+    30% { bottom: 660px; left: 455px;}
+    40% { bottom: 860px; left: 465px;}
+    50% { bottom: 950px; left: 420px;}
+    60% { bottom: 1120px; left: 495px;}
+    70% { bottom: 1480px; left: 450px;}
+    80% { bottom: 1690px; left: 455px;}
+    90% { bottom: 1850px; left: 440px;}
+    95% { bottom: 1900px; left: 430px;}
+    to { bottom: 2200px; left: 450px;}
 }
