@@ -1,6 +1,6 @@
 function bubbles() {
     var bubbles = document.getElementsByClassName("bubble");
-    for(var i = 0; i < bubbles.length; i++){
+    for(var i = 1; i < bubbles.length; i++){
         setInterval(function() {
             bubbles[i].classList.toggle("bubble");
           }, 6000);
